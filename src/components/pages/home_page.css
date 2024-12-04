@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    scroll-padding: 150px;
+}
+
+.HomePage{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+}
+
+
+.Home_maine-text {
+    font-family: "Inter", sans-serif;
+    color: #1A202C;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.maine-text_first-word {
+    color: #1A202C;
+    font-weight: 300;
+}
+
+.maine-text_second-word {
+    background: linear-gradient(to right, #F7666F, #406AFF); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.Home_info-text {
+    font-family: "Inter", sans-serif;
+    color: #4A5568;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.Hompage_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #406AFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.Homepage_btn-text {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}

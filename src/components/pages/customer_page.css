@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{ scroll-behavior: smooth;
+    scroll-padding: 150px;
+}
+
+.Customer-information {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 200px;
+}
+
+.Customer_maine-text {
+    color:#1A202C;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Customer_maine-text::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #F76680, #57007B); 
+    margin-bottom: 10px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.Customer-logos {
+    background-color: #F9F9FF;
+    margin-top: 50px;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-content {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    width: max-content;
+}
+
+.scroll-content img {
+    height: 60px; 
+    margin-right: 50px; 
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); 
+    }
+}

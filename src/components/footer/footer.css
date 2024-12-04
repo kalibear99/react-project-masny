@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Footer-container {
+    background-color: #F9F9FF;
+    margin-top: 100px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+    color: #718096;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer-contact_maine-text {
+    background: linear-gradient(to right, #F7666F, #406AFF); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.Footer-logo img {
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+
+.Footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Footer-menu ul li {
+    margin-bottom: 10px;
+}
+
+.Footer-menu ul li a {
+    text-decoration: none;
+    color: #718096;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.Footer-menu ul li a:hover {
+    color: #F76680;
+}
+
+.KontatFooter .TitleKontakt {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.KontatFooter .EmailFooter,
+.KontatFooter .PhoneFooter {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    margin-right: 15px;
+    font-size: 1.2rem;
+    color: #F76680;
+}
+
+.icons a:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .Footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Footer-menu ul {
+        margin: 20px 0;
+    }
+
+    .icons a {
+        margin-right: 10px;
+    }
+}

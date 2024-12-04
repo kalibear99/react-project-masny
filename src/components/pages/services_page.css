@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{ scroll-behavior: smooth;
+    scroll-padding: 150px;
+}
+
+.Services-page {
+    background-color: #F9F9FF;
+    padding: 50px;
+    margin-top: 140px;
+}
+
+
+.services_maine-text {
+    margin-bottom: 45px;
+    text-align: center;
+    color: #1A202C;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.services_maine-text::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #F76680, #57007B); 
+    margin: 15px auto 0;
+    margin-bottom: 10px;
+}
+
+.containerService {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.TypeService {
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 35px;
+    width: 290px;
+    height: 180px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #F7666F, #406AFF) 1;
+    
+}
+
+.TypeService h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #F7666F, #406AFF); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+}
+
+.TypeService p {
+    color: #4A5568;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 15px;
+}
